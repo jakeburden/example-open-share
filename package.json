@@ -1,0 +1,28 @@
+{
+  "name": "example-open-share",
+  "version": "1.0.0",
+  "description": "example usages of OpenShare",
+  "main": "app.js",
+  "scripts": {
+    "start": "wzrd app.js -- -t babelify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jekrb/example-open-share.git"
+  },
+  "keywords": [
+    "OpenShare"
+  ],
+  "author": "Jacob Burden <Jacob.JW.Burden@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jekrb/example-open-share/issues"
+  },
+  "homepage": "https://github.com/jekrb/example-open-share#readme",
+  "dependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "open-share": "^1.1.2",
+    "wzrd": "^1.3.1"
+  }
+}
